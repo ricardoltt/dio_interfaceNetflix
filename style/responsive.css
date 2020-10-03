@@ -1,0 +1,32 @@
+@media screen and (max-width: 700px){
+    header {
+        background: linear-gradient(to top, transparent,black);
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+        background: none;
+    }
+
+    .filme-principal img {
+        height: 10vh;
+    }
+
+    .filme-principal h3 {
+        font-size: 20px
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+
+
+}
