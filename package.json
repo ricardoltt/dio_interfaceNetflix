@@ -1,0 +1,27 @@
+{
+  "name": "interface-netflix",
+  "version": "1.0.0",
+  "description": "O objetivo do projeto era reproduzir a interface da Netflix!",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoltt/dio_interfaceNetflix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoltt/dio_interfaceNetflix/issues"
+  },
+  "homepage": "https://github.com/ricardoltt/dio_interfaceNetflix#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
