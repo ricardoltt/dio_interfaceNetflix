@@ -7,8 +7,8 @@ const boxFilme = document.querySelectorAll('.item')
 for (let card of cards) {
   card.addEventListener("click", function() {
     console.log('card clicado')
-    sinopse.innerHTML = 'asdasdasd';
-    titulo.innerHTML = 'asd'
-    logo.src = boxFilme.querySelector('img').src
+    sinopse.innerHTML = 'Teste sinopse';
+    titulo.innerHTML = 'Teste titulo'
+    logo.src = 'Teste logo'
   })
 }
